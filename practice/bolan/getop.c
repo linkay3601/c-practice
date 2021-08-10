@@ -3,8 +3,8 @@
 #include "calc.h"
 
 
-int getop(char s[])
 /* 获取下一个操作符或操作数 */
+int getop(char s[])
 {
     int i, c;
     while ((s[0] = c = getch()) == ' ' || c == '\t')

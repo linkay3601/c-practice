@@ -7,8 +7,8 @@ static int sp = 0;
 static double val[MAXVAL];
 
 
-void push(double f)
 /* 入栈操作 */
+void push(double f)
 {
     if (sp < MAXVAL)
         val[sp++] = f;
@@ -17,8 +17,8 @@ void push(double f)
 }
 
 
-double pop(void)
 /* 出栈操作 */
+double pop(void)
 {
     if (sp > 0)
         return val[--sp];

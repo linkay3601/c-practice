@@ -5,8 +5,8 @@
 #define MAXOP 100   // 操作符或操作数的最大限制
 
 
-int main()
 /* 逆波兰简易计算器（解耦版本）*/
+int main()
 {
     int type;
     double op2;

@@ -7,8 +7,8 @@ static char buf[BUFSIZ];  // ungetch 的缓存
 static int bufp = 0;      // 缓存的下一个空闲位置
 
 
-int getch(void)
 /* 反读 字符 */
+int getch(void)
 {
     return (bufp > 0)? buf[--bufp]: getchar();
 }
