@@ -13,8 +13,8 @@ int main()
 }
 
 
-void strCpy(char *s, char *t)
 /* 字符串复制（指针进阶版）*/
+void strCpy(char *s, char *t)
 {
     while ((*s++ = *t++) != '\0')
         ;

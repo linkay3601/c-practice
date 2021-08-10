@@ -13,8 +13,8 @@ int main()
 }
 
 
-void strCpy(char *s, char *t)
 /* 字符串复制（指针高阶版）*/
+void strCpy(char *s, char *t)
 {
     while ((*s++ = *t++))  // 因为 '\0' 的对应 ASCII 为 0，所以可以简化成这样
         ;

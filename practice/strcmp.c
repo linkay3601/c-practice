@@ -12,8 +12,8 @@ int main()
 }
 
 
-int strCmp(char *s, char *t)
 /* 逐个比较两个字符串中的字符（数组实现）*/
+int strCmp(char *s, char *t)
 {
     int i;
 

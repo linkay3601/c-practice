@@ -1,7 +1,9 @@
+/**
+ * 拷贝输入流
+ */
 #include <stdio.h>
 
 int main()
-/* 拷贝输入流 */
 {
     int c;
 

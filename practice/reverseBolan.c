@@ -1,3 +1,6 @@
+/**
+ * 逆波兰简易计算器
+ */
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -10,7 +13,6 @@ double pop(void);
 
 
 int main()
-/* 逆波兰简易计算器 */
 {
     int type;
     double op2;
@@ -59,8 +61,8 @@ int sp = 0;
 double val[MAXVAL];
 
 
-void push(double f)
 /* 入栈操作 */
+void push(double f)
 {
     if (sp < MAXVAL)
         val[sp++] = f;
@@ -69,8 +71,8 @@ void push(double f)
 }
 
 
-double pop(void)
 /* 出栈操作 */
+double pop(void)
 {
     if (sp > 0)
         return val[--sp];
@@ -90,8 +92,8 @@ int getch(void);
 void ungetch(int);
 
 
-int getop(char s[])
 /* 获取下一个操作符或操作数 */
+int getop(char s[])
 {
     int i, c;
     while ((s[0] = c = getch()) == ' ' || c == '\t')
@@ -119,8 +121,8 @@ char buf[BUFSIZ];  // ungetch 的缓存
 int bufp = 0;      // 缓存的下一个空闲位置
 
 
+/* 反读字符 */
 int getch(void)
-/* 反读 字符 */
 {
     return (bufp > 0)? buf[--bufp]: getchar();
 }

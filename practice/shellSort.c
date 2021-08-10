@@ -16,8 +16,8 @@ int main()
 }
 
 
-void shellSort(int v[], int n)
 /* 希尔排序（高阶插入排序）*/
+void shellSort(int v[], int n)
 {
     int gap, i, j, temp;
 

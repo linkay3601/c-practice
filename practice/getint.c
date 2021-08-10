@@ -22,8 +22,8 @@ int main()
 }
 
 
-int getint(int *pn)
 /* 从标准输入获取数字值并给指定目标赋值 */
+int getint(int *pn)
 {
     int c, sign;
 
@@ -48,14 +48,15 @@ int getint(int *pn)
 }
 
 
+/* -------------------------------------------------------------------------- */
 #define BUFSIZE 100
 
 char buf[BUFSIZ];  // ungetch 的缓存
 int bufp = 0;      // 缓存的下一个空闲位置
 
 
+/* 反读字符 */
 int getch(void)
-/* 反读 字符 */
 {
     return (bufp > 0)? buf[--bufp]: getchar();
 }

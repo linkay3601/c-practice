@@ -1,3 +1,6 @@
+/**
+ * 字符串转整型（带符号位）
+ */
 #include <ctype.h>
 #include <stdio.h>
 
@@ -11,8 +14,8 @@ int main()
 }
 
 
-int atoi(char s[])
 /* 字符串转整型（带符号位）*/
+int atoi(char s[])
 {
     int i, n, sign;
 

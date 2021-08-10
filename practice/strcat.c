@@ -2,6 +2,7 @@
 
 void strCat(char s[], char t[]);
 
+
 int main()
 {
     char  world[] = "world";
@@ -12,8 +13,8 @@ int main()
 }
 
 
-void strCat(char s[], char t[])
 /* 字符数组连接操作 */
+void strCat(char s[], char t[])
 {
     int i, j;
 

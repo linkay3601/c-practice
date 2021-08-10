@@ -1,3 +1,6 @@
+/**
+ * 获取最长的字符数组并打印
+ */
 #include <stdio.h>
 
 #define MAXLINE 1000
@@ -10,7 +13,6 @@ char line[MAXLINE];
 char longest[MAXLINE];
 
 int main()
-/* 获取最长的字符数组并打印 */
 {
     int len;
     extern int max;

@@ -1,8 +1,10 @@
+/**
+ * 字符计数（Switch 实现的）
+ */
 #include <stdio.h>
 
 
 int main()
-/* 字符计数（Switch 实现的）*/
 {
     int c, i, nwhite, nother, ndight[10];
 

@@ -1,5 +1,5 @@
 /**
- * 目前无法编译成功！
+ * 目前无法编译成功（代码有点问题）！
  */
 #include <stdio.h>
 #include <string.h>

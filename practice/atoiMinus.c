@@ -1,3 +1,6 @@
+/**
+ * 字符串转整型数（简化版）
+ */
 #include <stdio.h>
 #include <ctype.h>
 
@@ -15,15 +18,15 @@ int main()
 }
 
 
-int atoi(char s[])
 /* 字符串转整型数（简化版）*/
+int atoi(char s[])
 {
     return (int) atof(s);
 }
 
 
-double atof(char s[])
 /* 字符串转浮点型数 */
+double atof(char s[])
 {
     double val, power;
     int i, sign;

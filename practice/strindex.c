@@ -1,3 +1,6 @@
+/**
+ * 简单 grep 命令实现
+ */
 #include <stdio.h>
 
 #define MAXLINE 1000
@@ -9,7 +12,6 @@ char pattern[] = "ould";
 
 
 int main()
-/* 简单 grep 命令实现 */
 {
     char line[MAXLINE];
     int found = 0;
@@ -25,8 +27,8 @@ int main()
 }
 
 
-int getLine(char s[], int lim)
 /* 获取下一行输入 */
+int getLine(char s[], int lim)
 {
     int c, i;
 
@@ -41,8 +43,8 @@ int getLine(char s[], int lim)
 }
 
 
-int strindex(char s[], char t[])
 /* 字符串中匹配指定模式 */
+int strindex(char s[], char t[])
 {
     int i, j, k;
 

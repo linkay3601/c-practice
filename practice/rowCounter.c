@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int main()
 /* 行计数 */
+int main()
 {
     int c;
     int nl;

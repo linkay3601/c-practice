@@ -1,3 +1,6 @@
+/**
+ * 获取最长的字符数组并打印
+ */
 #include <stdio.h>
 
 #define MAXLINE 1000
@@ -6,7 +9,6 @@ int getLine(char line[], int maxLine);
 void copy(char to[], char from[]);
 
 int main()
-/* 获取最长的字符数组并打印 */
 {
     int len;
     int max;
@@ -54,7 +56,7 @@ void copy(char to[], char from[])
     int i;
 
     i = 0;
-    /* 字符数组拷贝操作，方式很新颖 */
+    // 字符数组拷贝操作，方式很新颖
     while ((to[i] = from[i]) != '\0')
     {
         ++i;

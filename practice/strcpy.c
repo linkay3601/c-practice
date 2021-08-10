@@ -13,8 +13,8 @@ int main()
 }
 
 
-void strCpy(char *s, char *t)
 /* 字符串复制（数组实现）*/
+void strCpy(char *s, char *t)
 {
     int i;
 

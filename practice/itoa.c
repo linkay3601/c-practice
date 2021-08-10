@@ -1,3 +1,6 @@
+/**
+ * 数字转字符串
+ */
 #include <stdio.h>
 #include <string.h>
 
@@ -15,8 +18,8 @@ int main()
 }
 
 
-void itoa(int n, char s[])
 /* 数字转字符串 */
+void itoa(int n, char s[])
 {
     int i, sign;
 
@@ -33,8 +36,8 @@ void itoa(int n, char s[])
 }
 
 
-void reverse(char s[])
 /* 反转字符串 */
+void reverse(char s[])
 {
     int c, i, j;
 

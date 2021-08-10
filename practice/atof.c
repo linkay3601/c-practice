@@ -1,3 +1,6 @@
+/**
+ * 字符串转浮点型数
+ */
 #include <ctype.h>
 #include <stdio.h>
 
@@ -14,8 +17,8 @@ int main()
 }
 
 
-double atof(char s[])
 /* 字符串转浮点型数 */
+double atof(char s[])
 {
     double val, power;
     int i, sign;

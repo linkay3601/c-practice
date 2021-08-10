@@ -10,8 +10,8 @@ int main()
 }
 
 
-int strLen(char *s)
 /* 计算字符数组（字符串）的长度（指针进阶版）*/
+int strLen(char *s)
 {
     char *p = s;
 

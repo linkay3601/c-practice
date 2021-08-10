@@ -4,8 +4,8 @@ static char allocbuf[ALLOCSIZE];
 static char *allocp = allocbuf;
 
 
-char *alloc(int n)
 /* 分配空间 */
+char *alloc(int n)
 {
     if (allocbuf + ALLOCSIZE - allocp >= n)
     {
@@ -18,8 +18,8 @@ char *alloc(int n)
 }
 
 
-void afree(char *p)
 /* 释放空间 */
+void afree(char *p)
 {
     if (p >= allocbuf && p < allocbuf + ALLOCSIZE)
         allocp = p;

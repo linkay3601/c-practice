@@ -1,6 +1,10 @@
+/**
+ * 字符数组转换为数值型
+ */
 #include <stdio.h>
 
 int atoi(char s[]);
+
 
 int main()
 {
@@ -9,8 +13,8 @@ int main()
 }
 
 
-int atoi(char s[])
 /* 字符数组转换为数值型 */
+int atoi(char s[])
 {
     int i, n;
 

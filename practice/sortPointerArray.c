@@ -1,3 +1,6 @@
+/**
+ * 指针数组排序
+ */
 #include <stdio.h>
 #include <string.h>
 

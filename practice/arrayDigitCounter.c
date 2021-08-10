@@ -1,7 +1,9 @@
+/**
+ * 数组计数
+ */
 #include <stdio.h>
 
 int main()
-/* 数组计数 */
 {
     int c;
     int i;

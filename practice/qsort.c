@@ -19,8 +19,8 @@ int main()
 }
 
 
-void qsort(int v[], int left, int right)
 /* 快速排序（高阶冒泡排序）*/
+void qsort(int v[], int left, int right)
 {
     int i, last;
 
@@ -37,8 +37,8 @@ void qsort(int v[], int left, int right)
 }
 
 
-void swap(int v[], int i, int j)
 /* 交换数组元素 */
+void swap(int v[], int i, int j)
 {
     int temp;
 

@@ -2,6 +2,7 @@
 
 void squeeze(char s[], int c);
 
+
 int main()
 {
     char string[] = "hello, world";
@@ -11,8 +12,8 @@ int main()
 }
 
 
-void squeeze(char s[], int c)
 /* 删除字符数组中的指定字符 */
+void squeeze(char s[], int c)
 {
     int i, j;
 

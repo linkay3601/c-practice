@@ -1,3 +1,6 @@
+/**
+ * 数字转字符串（递归实现）
+ */
 #include <stdio.h>
 
 void printd(int n);
@@ -11,8 +14,8 @@ int main()
 }
 
 
-void printd(int n)
 /* 数字转字符串（递归实现）*/
+void printd(int n)
 {
     if (n < 0)
     {

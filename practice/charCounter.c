@@ -1,7 +1,11 @@
+/**
+ * 字符计数
+ */
 #include <stdio.h>
 
-int main()
+
 /* 字符计数 */
+int main()
 {
     long nc;
 

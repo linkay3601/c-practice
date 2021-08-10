@@ -1,3 +1,6 @@
+/**
+ * 折半查找法查找对应元素
+ */
 #include <stdio.h>
 
 int binsearch(int x, int v[], int n);
@@ -10,8 +13,8 @@ int main()
 }
 
 
-int binsearch(int x, int v[], int n)
 /* 折半查找法查找对应元素 */
+int binsearch(int x, int v[], int n)
 {
     int low, high, mid;
 

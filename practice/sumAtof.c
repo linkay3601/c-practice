@@ -1,3 +1,6 @@
+/**
+ * 简易计算簿
+ */
 #include <stdio.h>
 #include <ctype.h>
 
@@ -8,7 +11,6 @@ int getLine(char s[], int lim);
 
 
 int main()
-/* 简易计算簿 */
 {
     double sum;
     char line[MAXLINE];
@@ -21,8 +23,8 @@ int main()
 }
 
 
-double atof(char s[])
 /* 字符串转浮点型数 */
+double atof(char s[])
 {
     double val, power;
     int i, sign;
@@ -46,8 +48,8 @@ double atof(char s[])
 }
 
 
-int getLine(char s[], int lim)
 /* 获取下一行输入 */
+int getLine(char s[], int lim)
 {
     int c, i;
 

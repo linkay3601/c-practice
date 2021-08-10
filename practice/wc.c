@@ -1,10 +1,12 @@
+/**
+ * wc 命令骨干代码
+ */
 #include <stdio.h>
 
 #define IN 1
 #define OUT 0
 
 int main()
-/* wc 命令骨干代码 */
 {
     int c;
     int nl;

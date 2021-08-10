@@ -12,8 +12,8 @@ int main()
 }
 
 
-int strCmp(char *s, char *t)
 /* 逐个比较两个字符串中的字符（指针版）*/
+int strCmp(char *s, char *t)
 {
     for (; *s == *t; s++, t++)
         if (*s == '\0')

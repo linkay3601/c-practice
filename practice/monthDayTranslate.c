@@ -10,14 +10,14 @@ int month_day(int year, int yearday, int *pmonth, int *pday);
 
 int main()
 {
-    //// int year = 2008;
-    //// int month = 3;
-    //// int day = 30;
+    // int year = 2008;
+    // int month = 3;
+    // int day = 30;
 
-    //// int yearday;
+    // int yearday;
 
-    //// yearday = day_of_year(year, month, day);
-    //// printf("%dth of a year\n", yearday);
+    // yearday = day_of_year(year, month, day);
+    // printf("%dth of a year\n", yearday);
 
     int year = 2008;
     int yearday = 61;

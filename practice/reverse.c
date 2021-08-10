@@ -13,8 +13,8 @@ int main()
 }
 
 
-void reverse(char s[])
 /* 反转字符串 */
+void reverse(char s[])
 {
     int c, i, j;
 

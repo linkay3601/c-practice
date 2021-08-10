@@ -1,3 +1,6 @@
+/**
+ * 简易 grep 改进版（带参数）
+ */
 #include <stdio.h>
 #include <string.h>
 
@@ -5,7 +8,7 @@
 
 int getLine(char s[], int lim);
 
-/* 简易 grep 改进版（带参数） */
+
 int main(int argc, char *argv[])
 {
     char line[MAXLINE];
@@ -22,8 +25,8 @@ int main(int argc, char *argv[])
     return found;
 }
 
-int getLine(char s[], int lim)
 /* 获取下一行输入 */
+int getLine(char s[], int lim)
 {
     int c, i;
 

@@ -1,3 +1,6 @@
+/**
+ * 输入单词计数（二叉树实现）
+ */
 struct tnode {
 	char *word;
 	int count;
@@ -15,7 +18,7 @@ struct tnode *addtree(struct tnode *, char *);
 void treeprint(struct tnode *);
 int getword(char *, int);
 
-/* 输入单词计数（二叉树实现）*/
+
 int main()
 {
 	struct tnode *root;

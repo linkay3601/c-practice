@@ -2,8 +2,8 @@
 
 int power(int m, int n);
 
+
 int main()
-/* 幂求值 */
 {
     int i;
 
@@ -15,6 +15,7 @@ int main()
 }
 
 
+/* 幂求值 */
 int power(int base, int n)
 {
     int i;

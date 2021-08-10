@@ -8,8 +8,8 @@ int main()
     printf("%d\n", strLen(string));
 }
 
-int strLen(char s[])
 /* 计算字符数组的长度 */
+int strLen(char s[])
 {
     int i;
 

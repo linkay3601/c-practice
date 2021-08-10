@@ -1,7 +1,8 @@
 #include <stdio.h>
 
-int main()
+
 /* 你好，世界 */
+int main()
 {
     printf("hello, world\n");
 }

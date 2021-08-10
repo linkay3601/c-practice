@@ -14,8 +14,8 @@ int main()
 }
 
 
-int trim(char s[])
 /* 清除字符串末尾的空白符 */
+int trim(char s[])
 {
     int n;
 
