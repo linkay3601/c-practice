@@ -63,4 +63,7 @@
 | 53   | [关键字计数（结构指针实现）](./practice/keywordCounterPointer.c) |
 | 54   | [单词计数（二叉树实现）](./practice/keywordCounterTree.c)    |
 | 55   | [线性表散列查找](./practice/tableHashFind.c)                 |
+| 56   | [简易版 printf 函数实现](./practice/miniprintf.c)            |
+| 57   | [标准输入转换为小写](./practice/stdinToLower.c)              |
+| 58   | [简单累加计算器](./practice/simpleCalculator.c)              |
 
