@@ -63,7 +63,10 @@
 | 57   | [标准输入转换为小写](./practice/stdinToLower.c)              |
 | 58   | [简单累加计算器](./practice/simpleCalculator.c)              |
 | 59   | [简易版 cat 命令实现](./practice/stdCat.c)              |
+| 60   | [升级版 cat 命令实现（添加了错误处理）](./practice/stdCatErr.c)              |
+| 61   | [fgets 实现获取输入行](./practice/fgetsGetLine.c)              |
 
 ## 参考资料
 
 - *《C 程序设计语言（第二版）》*
+
