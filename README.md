@@ -62,6 +62,7 @@
 | 56   | [简易版 printf 函数实现](./practice/miniprintf.c)            |
 | 57   | [标准输入转换为小写](./practice/stdinToLower.c)              |
 | 58   | [简单累加计算器](./practice/simpleCalculator.c)              |
+| 59   | [简易版 cat 命令实现](./practice/stdCat.c)              |
 
 ## 参考资料
 
